@@ -65,10 +65,8 @@ def start_game():
     while True:
         menu_text()
         menu_choice = input("Please enter a menu_choice: ")
-        print(menu_choice)
         if menu_choice.lower() == "a":
             game_number = random.randint(1, 20)
-            print(game_number)
             attempt = 0
             correct = False
             while correct != True:
