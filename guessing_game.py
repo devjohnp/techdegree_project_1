@@ -70,6 +70,7 @@ def start_game():
             attempt = 0
             correct = False
             while correct != True:
+                print("The current lowest score is {}\n".format(best_score))
                 number_guess = input("Please choose a number between 1 and 20: ")
                 if number_guess.lower() == 'q':
                     attempt = 0
