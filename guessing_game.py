@@ -69,7 +69,7 @@ def start_game():
             game_number = random.randint(1, 20)
             attempt = 0
             correct = False
-            while correct != True:
+            while correct != True: #Continue looping until guess is correct or user quits.
                 print("The current lowest score is {}\n".format(best_score))
                 number_guess = input("Please choose a number between 1 and 20: ")
                 if number_guess.lower() == 'q':
